@@ -76,7 +76,7 @@ public class MainActivity extends AppCompatActivity {
             expressaoBuilder.append(ultimoResultado);
         }
         expressaoBuilder.append(valor);
-        textViewUltimaExpressao.setText(expressaoBuilder.toString());
+        textViewResultado.setText(expressaoBuilder.toString());
     }
     private void aplicarPorcentagem() {
         try {

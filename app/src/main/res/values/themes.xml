@@ -18,7 +18,8 @@
         <item name="materialButtonStyle">@style/AppButton</item>
     </style>
     <style name="AppButton" parent="Widget.MaterialComponents.Button">
-        <item name="android:backgroundTint">@color/material_dynamic_neutral40</item>
+        <item name="android:backgroundTint">@color/gray</item>
+<!--        <item name="android:backgroundTint">@color/material_dynamic_neutral40</item>-->
         <item name="android:textColor">@color/white</item>
         <item name="android:textSize">@dimen/button_text_size</item>
     </style>
@@ -37,7 +38,8 @@
     </style>
     <!-- Estilo dos botões auxiliares (C e D) -->
     <style name="AppTheme.Other.Button" parent="Widget.MaterialComponents.Button">
-        <item name="android:backgroundTint">@color/material_dynamic_neutral50</item>
+        <item name="android:backgroundTint">@color/gray</item>
+<!--        <item name="android:backgroundTint">@color/material_dynamic_neutral50</item>-->
         <item name="android:textColor">@color/white</item>
         <item name="android:textSize">@dimen/button_text_size</item>
     </style>
